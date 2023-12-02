@@ -1,11 +1,15 @@
 <h1>Chat</h1>
-<form id="form-message">
-    <input id="input-message" type="text" placeholder="Write a message" required />
-    <input type="submit" value="Send" />
-</form>
-<h3>Messages</h3>
-<div id="log-messages">
-</div>
+<article>
+    <form id="form-message">
+        <input id="input-message" type="text" placeholder="Write a message" required />
+        <input type="submit" value="Send" />
+    </form>
+</article>
+<h3>Conversation</h3>
+<article>
+    <div id="log-messages">
+    </div>
+</article>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="/socket.io/socket.io.js"></script>
-<script src="js/index.js"></script>
+<script src="/js/index.js"></script>
